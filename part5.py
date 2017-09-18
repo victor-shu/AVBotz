@@ -29,4 +29,6 @@ while (height != desiredHeight):
     height = proportional + integral + derivative
     lasterror = error
 
-    return height
+    def set_thrust(thrust):
+        thrust = height
+
