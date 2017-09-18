@@ -5,8 +5,6 @@ def get_height(n):
     desiredHeight = n
     return desiredHeight
 
-def set_thrust(thrust):
-    return None
 
 ticks = time.time()
 currentHeight = ticks*thrust
